@@ -1,0 +1,47 @@
+0a,0b
+---------------
+011 @528  = xxxxxPPP PPPPxxxx xxxxxxxx
+011 @512  = xxxxxxPP PPPPPxxx xxxxxxxx
+
+021 @528  = xxxxxPPP PPPPxxxx xxxxxxxx
+021 @512  = xxxxxxPP PPPPPxxx xxxxxxxx
+
+041 @528  = xxxxPPPP PPPPxxxx xxxxxxxx
+041 @512  = xxxxxPPP PPPPPxxx xxxxxxxx
+
+081 @ 528 = xxxPPPPP PPPPxxxx xxxxxxxx (64kb)
+081 @ 512 = xxxxPPPP PPPPPxxx xxxxxxxx
+
+161 @ 528 = xxPPPPPP PPPxxxxx xxxxxxxx (128kb)
+161 @ 512 = xxxPPPPP PPPPxxxx xxxxxxxx
+
+321 @ 528 = xPPPPPPP PPPxxxxx xxxxxxxx (64kb)
+321 @ 512 = xxPPPPPP PPPPxxxx xxxxxxxx
+
+642 @ 528 = PPPPPPPP PPxxxxxx xxxxxxxx
+642 @ 512 = xPPPPPPP PPPxxxxx xxxxxxxx
+
+
+rest of sectors
+---------------
+
+011 @528  = xxxxxxPP xxxxxxxx xxxxxxxx (4 sectors)
+011 @512  = xxxxxxxP Pxxxxxxx xxxxxxxx (4 sectors)
+
+021 @ 528  = xxxxxPPP xxxxxxxx xxxxxxxx (8 sectors)
+021 @ 512  = xxxxxxPP Pxxxxxxx xxxxxxxx (8 sectors)
+
+041 @528  = xxxxPPPx xxxxxxxx xxxxxxxx (8 sectors)
+041 @512  = xxxxxPPP xxxxxxxx xxxxxxxx (8 sectors)
+
+081 @ 528 = xxxPPPPx xxxxxxxx xxxxxxxx (16 sectors)
+081 @ 512 = xxxxPPPP xxxxxxxx xxxxxxxx (16 sectors)
+
+161 @ 528 = xxPPPPxx xxxxxxxx xxxxxxxx (16 sectors)
+161 @ 512 = xxxPPPPx xxxxxxxx xxxxxxxx (16 sectors)
+
+321 @ 528 = xPPPPPPx xxxxxxxx xxxxxxxx (64 sectors)
+321 @ 512 = xxPPPPPP xxxxxxxx xxxxxxxx (64 sectors)
+
+642 @ 528 = PPPPPxxx xxxxxxxx xxxxxxxx (32 sectors)
+642 @ 512 = xPPPPPxx xxxxxxxx xxxxxxxx (32 sectors)
